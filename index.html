@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Frezzini Lucas | @lucasfrezzini" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href=".asssets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page | @lucasfrezzini</title>
+
+  <!-- Fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+<body>
+	<!-- Navbar menu -->
+	<header class="navbar">
+		<img src="./assets/images/logo.svg" alt="Logotipo">
+		<nav>
+			<ul>
+				<li class="desktop__link"><a href="#">About</a></li>
+				<li class="desktop__link"><a href="#">Services</a></li>
+				<li class="desktop__link"><a href="#">Projects</a></li>
+				<li class="desktop__link desktop__link--featured"><a href="#">Contact</a></li>
+				<li id="open__nav"><img src="./assets/images/icon-hamburger.svg" alt=""></li>
+			</ul>
+		</nav>
+		<nav class="mobile__nav">
+			<ul>
+				<li class="mobile__link"><a href="#">About</a></li>
+				<li class="mobile__link"><a href="#">Services</a></li>
+				<li class="mobile__link"><a href="#">Projects</a></li>
+				<li class="mobile__link mobile__link--featured"><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Main  -->
+	<main>
+		<!-- Section featured  -->
+		<section class="section__featured">
+			<h1>We are creatives</h1>
+			<img src="./assets/images/icon-arrow-down.svg" alt="Arrow">
+		</section>
+		<!-- /Section featured  -->
+
+		<!-- Section about us info  -->
+		<section class="section__aboutUs">
+			<div class="section__image">
+				<picture>
+					<source 
+					  srcset="./assets/images/desktop/image-transform.jpg"
+					  media="(min-width: 670px)"
+					/>
+					<img src="./assets/images/mobile/image-transform.jpg" alt="" />
+				</picture>
+			</div>
+			<div class="section__info">
+				<h2>Transform your brand</h2>
+				<p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+				<a href="#">Learn more</a>
+			</div>
+		</section>
+		<!-- /Section about us info  -->
+
+		<!-- Section about us info  -->
+		<section class="section__aboutUs">
+			<div class="section__image">
+				<picture>
+					<source 
+					  srcset="./assets/images/desktop/image-stand-out.jpg"
+					  media="(min-width: 670px)"
+					/>
+					<img src="./assets/images/mobile/image-stand-out.jpg" alt="" />
+				</picture>
+			</div>
+			<div class="section__info section__info--red">
+				<h2>Stand out to the right audience</h2>
+				<p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+				<a href="#" >Learn more</a>
+			</div>
+		</section>
+		<!-- /Section about us info  -->
+
+		<!-- Section about us info and expertise  -->
+		<section class="section__aboutUs">
+			<div class="section__infoAndImage">
+				<h3>Graphic design</h3>
+				<p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+			</div>
+			<div class="section__infoAndImage">
+				<h3>Photography</h3>
+				<p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+			</div>
+		</section>
+		<!-- / Section about us info and expertise  -->
+
+		<!-- Section Testimonials  -->
+		<section class="section__testimonials">
+			<h4>Client testimonials</h4>
+			<div class="testimonials__info">
+				<div class="testimonials__user">
+					<img src="./assets/images/image-emily.jpg" alt="User">
+					<p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+					<h5>Emily R.</h5>
+					<h6>Marketing Director</h6>
+				</div>
+				<div class="testimonials__user">
+					<img src="./assets/images/image-jennie.jpg" alt="User">
+					<p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+					<h5>Jennie.</h5>
+					<h6>Marketing Director</h6>
+				</div>
+				<div class="testimonials__user">
+					<img src="./assets/images/image-thomas.jpg" alt="User">
+					<p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+					<h5>Thomas S.</h5>
+					<h6>Chief Operating Officer</h6>
+				</div>
+			</div>
+		</section>
+		<!-- /Section Testimonials  -->
+
+		<!-- Section Images grid x 4  -->
+		<section class="section__imagesGrid">
+			<picture>
+				<source 
+				  srcset="./assets/images/desktop/image-gallery-cone.jpg"
+				  media="(min-width: 670px)"
+				/>
+				<img src="./assets/images/mobile/image-gallery-cone.jpg" alt="" />
+			</picture>
+			<picture>
+				<source 
+				  srcset="./assets/images/desktop/image-gallery-milkbottles.jpg"
+				  media="(min-width: 670px)"
+				/>
+				<img src="./assets/images/mobile/image-gallery-milkbottles.jpg" alt="" />
+			</picture>
+			<picture>
+				<source 
+				  srcset="./assets/images/desktop/image-gallery-orange.jpg"
+				  media="(min-width: 670px)"
+				/>
+				<img src="./assets/images/mobile/image-gallery-orange.jpg" alt="" />
+			</picture>
+			<picture>
+				<source 
+				  srcset="./assets/images/desktop/image-gallery-sugarcubes.jpg"
+				  media="(min-width: 670px)"
+				/>
+				<img src="./assets/images/mobile/image-gallery-sugar-cubes.jpg" alt="" />
+			</picture>
+		</section>
+		<!-- /Section Images grid x 4  -->
+
+	</main>
+
+	<!-- Footer  -->
+	<footer>
+		<img src="./assets/images/logo-footer.svg" alt="Logotipo">
+		<nav class="footer__sections">
+			<a href="#">Services</a>
+			<a href="#">Projects</a>
+			<a href="#">Contact</a>
+		</nav>
+		<nav class="footer__socials">
+			<a href="#"><img src="./assets/images/icon-facebook.svg" alt=""></a>
+			<a href="#"><img src="./assets/images/icon-instagram.svg" alt=""></a>
+			<a href="#"><img src="./assets/images/icon-pinterest.svg" alt=""></a>
+			<a href="#"><img src="./assets/images/icon-twitter.svg" alt=""></a>
+		</nav>
+	</footer>
+	<!-- /Footer  -->
+
+	<!-- Javascript  -->
+	<script src="./assets/js/main.js"></script>
+</body>
+</html>
